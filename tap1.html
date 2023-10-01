@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="tgit 1.css">
+    <style>table,th,td{border: 1px dotted grey;
+        border-collapse: collapse;
+        text-align: left;padding:10px ;}
+    body { 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;}
+    
+    .baslig { color: green;
+     font-weight: bold;
+     text-align: center;
+     font-size: 30px;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     }
+    .paragraf{ font-weight: bold;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;}
+    
+    .input{ font-weight: bold;margin-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;}</style>
+</head>
+<body>
+    <div class="MyDiv">
+    <div class="baslig">GeeksforGeeks</div>
+    <div class="paragraf"><p>perform a real time filter on a HTML table</p></div>
+    <div class="input">
+    Search the table for course,fees or Type:
+    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search here..">
+    </div>
+
+    <div class="table">
+    <table>
+        <thead>
+            <tr>
+            <th>Course</th>
+            <th>Duration</th>
+            <th>Type</th>
+        </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>C++ STL</td>
+                <td>1499</td>
+                <td>Online Classes</td>
+            </tr>
+            <tr>
+                <td>DSA Foundation</td>
+                <td>7999</td>
+                <td>Regular Classes</td>
+            </tr>
+            <tr>
+                <td>Greeks Classes</td>
+                <td>10799</td>
+                <td>Weekend Classes</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Placement 100</td>
+                <td>9999</td>
+                <td>Online Classes</td>
+            </tr>
+            
+        </tfoot>
+    </table>
+    </div>
+</div>
+
+</body>
+</html>
